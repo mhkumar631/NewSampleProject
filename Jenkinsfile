@@ -8,6 +8,7 @@ pipeline{
         }
         stage("Build Stage"){
             steps{
+                sh "ls -lrta"
                 sh "ls -lrt"
             }
         }
